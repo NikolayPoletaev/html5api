@@ -1,0 +1,35 @@
+
+video{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.player{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.player:hover .player-buttons{
+    display: flex;
+}
+
+.player-buttons{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    column-gap: 15px;
+    background-color: rgba(240, 248, 255, 0.444);
+}
+
+.button{
+    border: none;
+    background: none;
+}
+
+.icon{
+    width: 5%;
+}
